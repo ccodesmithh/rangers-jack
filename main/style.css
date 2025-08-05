@@ -1,0 +1,158 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    transition: background-color 0.5s, color 0.5s;
+    background-image: url(../main/Comp\ 1_00000.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -200px;
+
+}
+
+body h2{
+    margin-left: 1300px;
+    transform: translateY(350px) translateX(-150px);
+    color: wheat;
+}
+
+#toLobby button{
+    width: 70px;
+    height: 50px;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #ff0000;
+    transition: 0.5s ease;
+    transform: perspective(1000px) rotateX(40deg) translateZ(200px) translateX(-500px) translateY(160px);
+    box-shadow: 0cap 0px 40px rgba(0, 0, 0, 0.445);
+    font-size: 10px;
+    animation: opac 1s ease;
+}
+
+#toLobby button:hover{
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0cap 0px 40px #ff0000;
+    text-shadow: 0cap 0px 20px white;
+}
+
+@keyframes slide{
+    from{
+        scale: 1.1;
+        transform: rotateX(-0.1deg);
+        opacity: 0%;
+    }
+}
+
+@keyframes opac{
+    from{
+        opacity: 0%;
+    }
+}
+
+#dealer-cards img {
+    height: 200px;
+    width: 100px;
+    margin: 1px;
+    box-shadow: inset 0px 0px 85px rgba(0, 0, 0, 0.4);
+    transform: perspective(1200px) rotateX(70deg) translateZ(-200px);
+    box-shadow: 0cap 0px 40px rgba(0, 0, 0, 0.702);
+    filter: brightness(80%);
+    animation: slide 1s ease;
+
+}
+
+#your-cards img {
+    height: 200px;
+    width: 100px;
+    margin: 1px;
+    transform: perspective(1200px) rotateX(70deg) translateZ(-200px);
+    box-shadow: 0cap 0px 40px rgba(0, 0, 0, 0.702);
+    filter: brightness(80%);
+    animation: slide 1s ease;
+
+}
+
+#hit {
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #6e4800;
+    transition: 0.5s ease;
+    transform: perspective(1000px) rotateX(40deg) translateZ(150px) translateX(-20px);
+    box-shadow: 0cap 0px 40px rgba(0, 0, 0, 0.445);
+    font-size: 20px;
+    animation: opac 1s ease;
+
+
+
+}
+
+#hit:hover{
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0cap 0px 40px #c07d00;
+    scale: 1.03;
+    text-shadow: 0cap 0px 20px white;
+}
+
+#stay {
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #6e4800;
+    transition: 0.5s ease;
+    transform: perspective(1000px) rotateX(40deg) translateZ(150px) translateX(100px);
+    box-shadow: 0cap 0px 40px rgba(0, 0, 0, 0.445);
+    font-size: 20px;
+    animation: opac 1s ease;
+
+}
+
+#restart{
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #d40000;
+    transition: 0.5s ease;
+    transform: perspective(1000px) rotateX(40deg) translateZ(350px) translateX(200px);
+    box-shadow: 0cap 0px 40px rgba(0, 0, 0, 0.445);
+    font-size: 20px;
+    animation: opac 1s ease;
+
+}
+
+#restart:hover{
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0cap 0px 40px rgb(255, 0, 0);
+    text-shadow: 0cap 0px 20px white;
+}
+
+#stay:hover{
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0cap 0px 40px #d18800;
+    scale: 1.03;
+    text-shadow: 0cap 0px 20px white;
+
+}
